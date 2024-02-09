@@ -9,18 +9,22 @@ ul {
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* general */
 :root {
     --color-scondary: #ffffff;
     --color-primary: #23272a;
-    --color-header-bg: #255ee9;
+    --color-header-bg: #255EE9;
     --color-section-bg: #f6f6f6;
     --color-contrast: #aebbe7;
 }
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 body {
     font-family: "Noto Sans", sans-serif;
@@ -40,9 +44,6 @@ header {
 }
 
 /* main */
-.setion-bg {
-    background-color: var(--color-section-bg);
-}
 .left{
     width: 60%;
 }
@@ -70,8 +71,16 @@ footer .top{
 }
 .small-conteiner{
     max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    /* margin: 0 auto;
+    padding: 10px;
+    text-align: center; */
+}
+
+/* cercare e dare effetto sfocato passando il cursore */
+.btn-big{
+   padding: 10px 16px;
+   border-radius: 20px;
+   border: 1px solid var(--color-scondary);
 }
 
 /* utility flex */
@@ -88,4 +97,33 @@ footer .top{
 .align-content-center{
     align-content: center;
     align-items: center;
+}
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-flow: 0 1 auto;
+}
+
+/* utitlity background */
+.bg-white{
+    background-color: var(--color-scondary);
+}
+.bg-lilla{
+    background-color: var(--color-header-bg);
+}
+.bg-section{
+    background-color: var(--color-section-bg);
+}
+/* utility text  */
+.text-center{
+    margin: 0 auto;
+    text-align: center;
+}
+.text-white{
+    color: var(--color-scondary);
+}
+/* id specific */
+#call-to-action{
+    background-image: url('../img/stars.svg');
+    background-size: 100% 100%;
 }
