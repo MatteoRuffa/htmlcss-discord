@@ -11,7 +11,9 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--color-scondary);
 }
+
 
 /* general */
 :root {
@@ -19,7 +21,7 @@ a {
     --color-primary: #23272a;
     --color-header-bg: #255EE9;
     --color-section-bg: #f6f6f6;
-    --color-contrast: #aebbe7;
+    --color-contrast: #628CF7;
 }
 
 /* .debug {
@@ -45,6 +47,7 @@ header {
     background-repeat: no-repeat;
 }
 
+
 /* main */
 .left {
     width: 60%;
@@ -65,8 +68,23 @@ footer {
     color: var(--color-scondary);
 }
 
+h3{
+    color: var(--color-contrast);
+}
+
+#flag{
+    width: 30px;
+}
+
 footer .top {
     border-bottom: 1px solid var(--color-contrast);
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+footer .bottom{
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 /* utility */
@@ -76,13 +94,18 @@ footer .top {
     padding: 10px;
 }
 
-.small-conteiner {
+.small-conteiner{
     max-width: 800px;
     min-width: 460px;
     margin: 0 auto;
-    padding: 150px;
+    padding: 10px;
     text-align: center;
 }
+
+.pdg-conteiner{
+    padding: 150px;
+}
+
 
 /* cercare e dare effetto sfocato passando il cursore */
 .btn-small {
@@ -111,15 +134,16 @@ footer .top {
     justify-content: space-between;
 }
 
-.align-content-center {
-    align-content: center;
-    align-items: center;  
-}
 
 .column {
     flex-direction: column;
     /* justify-content: flex-start; */
     row-gap: 30px;
+}
+
+.align-items{
+    align-items: center;
+    gap: 8px;
 }
 
 ul.gap {
@@ -132,7 +156,8 @@ ul.gap {
 }
 
 .bg-lilla {
-    background-color: var(--color-header-bg);
+    background-color: var(--color-contrast);
+    border-color: var(--color-contrast);
 }
 
 .bg-black{
@@ -143,18 +168,16 @@ ul.gap {
     background-color: var(--color-section-bg);
 }
 
-/* utility text  */
-.text-center {
-    margin: 0 auto;
-    text-align: center;
-}
-
 .text-white {
     color: white;
 }
 
 .text-black {
     color: var(--color-primary)
+}
+
+.text-lilla{
+    color: var(--color-contrast);
 }
 
 /* id specific */

@@ -18,20 +18,21 @@
 
 <body>
     <!-- header -->
+    <!-- veder con proff ridimensionamento img backgroun!!-->
     <header>
-        <nav class="conteiner d-flex space-between align-content-center ">
+        <nav class="conteiner d-flex space-between align-items ">
             <img src="img/logo.svg" alt="logo Discord">
             <ul class="d-flex gap  ">
-                <li><a class="text-white" href="#">Scarica</a></li>
-                <li><a class="text-white" href="#">Perchè discord</a></li>
-                <li><a class="text-white" href="#">Nitro</a></li>
-                <li><a class="text-white" href="#">Sicurezza</a></li>
-                <li><a class="text-white" href="#">Assistenza</a></li>
+                <li><a href="#">Scarica</a></li>
+                <li><a href="#">Perchè discord</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Sicurezza</a></li>
+                <li><a href="#">Assistenza</a></li>
             </ul>
             <a class="btn-small bg-white text-black" href="#">Accedi</a>
         </nav>
         <div id="hero">
-            <div class="small-conteiner  d-flex column align-content-center ">
+            <div class="small-conteiner pdg-conteiner d-flex column align-content-center ">
                 <h1>Il tuo posto per parlare</h1>
                 <p>Che tu faccia parte di un club scolastico, un gruppo di gamer, una community artistica mondiale o
                     dove trascorrere tempo assieme a un piccolo gruppo di amici: uno spazio in cui è più facile
@@ -101,8 +102,9 @@
                 </div>
             </div>
         </section>
+         <!-- rivedere padding .small-conteiner e div -->
         <section class="bg-section">
-            <div id="call-to-action" class="small-conteiner text-center d-flex column">
+            <div id="call-to-action" class="small-conteiner d-flex column">
                 <h2>Pronto a iniziare la tua avventura?</h2>
             </div>
             <div class="small-conteiner   text-center">
@@ -113,15 +115,66 @@
     <!-- footer -->
     <footer>
         <div class="top conteiner d-flex space-between">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
+            <div>
+                <ul class="d-flex column">
+                    <li><h2 class="text-lilla">Il tuo posto per parlare</h2></li>
+                    <!-- cercare tag semantico nuovo per elenchi a tendina(vistoa lezione) -->
+                    <li class="d-flex align-items">
+                        <img id="flag" src="img/ita.png" alt="ita falg">
+                        <span>italiano</span>
+                    </li>
+                    <li>loghi</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="d-flex column">
+                    <li><h3>Prodotto</h3></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nittro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="d-flex column">
+                    <li><h3>Compagnia</h3></li>
+                    <li><a href="#">chi siamo</a></li>
+                    <li><a href="#">Lavora con noi</a></li>
+                    <li><a href="#">Marchio</a></li>
+                    <li><a href="#">Redazione</a></li>
+                    <li><a href="#">Negozio</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="d-flex column">
+                    <li><h3>Risorse</h3></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nittro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nittro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="d-flex column">
+                    <li><h3>Norme</h3></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nittro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
         </div>
         <div class="bottom conteiner d-flex space-between align-content-center">
             <img src="img/logo.svg" alt="logo Discord">
-            <a href="#">Registrati</a>
+            <a class="btn-big bg-lilla" href="#">Registrati</a>
         </div>
     </footer>
 </body>
