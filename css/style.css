@@ -31,21 +31,61 @@ body {
 /* header */
 header {
     background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+#hero{
+    background-image: url('../img/jumbo.png');
+    min-height: 500px;
+    background-size: cover;
 }
 
 /* main */
 .setion-bg {
     background-color: var(--color-section-bg);
 }
-
+.left{
+    width: 60%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 40%;
+    padding: 3%;
+}
 /* footer */
 footer{
     background-color: var(--color-primary);
     color: var(--color-scondary);
+}
+footer .top{
+    border-bottom: 1px solid var(--color-contrast);
 }
 
 /* utility */
 .conteiner{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
+}
+.small-conteiner{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* utility flex */
+.d-flex{
+    display: flex;
+
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-content-center{
+    align-content: center;
+    align-items: center;
 }
