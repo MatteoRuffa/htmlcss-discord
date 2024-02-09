@@ -87,6 +87,7 @@ footer .bottom{
     padding-bottom: 60px;
 }
 
+
 /* utility */
 .conteiner {
     max-width: 1200px;
@@ -146,8 +147,8 @@ footer .bottom{
     gap: 8px;
 }
 
-ul.gap {
-    grid-gap: 40px;
+.gap {
+    grid-gap: 30px;
 }
 
 /* utitlity background */
