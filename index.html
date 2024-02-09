@@ -16,6 +16,12 @@
     <title>Discord</title>
 </head>
 
+<!-- da fare ancora
+-sfocatura bottoni
+-cambio fonts
+-onde sfondo
+-vedere bene background size
+-gap footer -->
 <body>
     <!-- header -->
     <!-- veder con proff ridimensionamento img backgroun!!-->
@@ -36,8 +42,7 @@
                 <h1>Il tuo posto per parlare</h1>
                 <p>Che tu faccia parte di un club scolastico, un gruppo di gamer, una community artistica mondiale o
                     dove trascorrere tempo assieme a un piccolo gruppo di amici: uno spazio in cui è più facile
-                    chiacchierare
-                    ogni giorno e ritrovarsi più spesso.</p>
+                    chiacchierare ogni giorno e ritrovarsi più spesso.</p>
                 <div>
                     <a class="btn-big bg-white text-black" href="#">&#129063; Scarica per Mac</a>
                     <a class="btn-big bg-black text-white" href="#">Apri Discord nel tuo browser</a>
@@ -52,11 +57,11 @@
     <!-- main -->
     <main>
         <section id="feature">
-            <div class="conteiner d-flex">
+            <div class="conteiner d-flex ">
                 <div class="left">
                     <img src="img/item1.svg" alt="feature">
                 </div>
-                <div class="right">
+                <div class="right d-flex column">
                     <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
                     <p>I server di Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o
                         semplicemente parlare delle tua giornata senza intasare una chat di gruppo. </p>
@@ -68,7 +73,7 @@
                 <div class="left">
                     <img src="img/item2.svg" alt="channel">
                 </div>
-                <div class="right">
+                <div class="right d-flex column">
                     <!-- e con accento! -->
                     <h2>Dove trovarsi e facile</h2>
                     <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere ce
@@ -81,7 +86,7 @@
                 <div class="left">
                     <img src="img/item3.svg" alt="comunity">
                 </div>
-                <div class="right">
+                <div class="right d-flex column">
                     <h2>Da pochi a un fadom</h2>
                     <p>Dai inizio a una comunity di qualsiasi dimensione con strumenti di moderazione e accesso ai
                         membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
@@ -90,8 +95,8 @@
             </div>
         </section>
         <section id="tecnology" class="bg-section">
-            <div class="conteiner text-center">
-                <div class="testo-sezione">
+            <div class="conteiner d-flex column align-items">
+                <div class="text-center d-flex column">
                     <h2>Tecnologia affidabile per tenersi in contatto</h2>
                     <p>Video w audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai
                         ciao in video, guarda gli amici giocare in streaming, o unitevi in una sessione di disegno con
@@ -104,12 +109,15 @@
         </section>
          <!-- rivedere padding .small-conteiner e div -->
         <section class="bg-section">
-            <div id="call-to-action" class="small-conteiner d-flex column">
-                <h2>Pronto a iniziare la tua avventura?</h2>
+            <div class="small-conteiner d-flex column pdg-small-conteiner">
+                <div id="call-to-action">
+                    <h2>Pronto a iniziare la tua avventura?</h2>
+                </div>
+                <div>
+                    <a class="btn-big bg-lilla text-white" href="#">&#129063; Scarica per Mac</a>
+                </div>
             </div>
-            <div class="small-conteiner   text-center">
-                <a class="btn-big bg-lilla text-white" href="#">&#129063; Scarica per Mac</a>
-            </div>
+           
         </section>
     </main>
     <!-- footer -->
