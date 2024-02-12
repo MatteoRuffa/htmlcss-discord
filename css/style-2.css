@@ -1,0 +1,73 @@
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-scondary: #ffffff;
+    --color-primary: #23272a;
+    --color-header-bg: #255EE9;
+    --color-section-bg: #f6f6f6;
+    --color-contrast: #628CF7;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    background-image: url(../img/jumbo.png);
+    color: var(--color-primary)
+}
+
+/* utility */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--color-primary);
+    color:var(--color-scondary);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: var(--color-primary);
+}
+
+.cancelbtn:hover {
+    border: 1px solid;
+    box-shadow: 5px 8px 11px var(--color-primary);
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.conteiner{
+    border-bottom: 4px solid var(--color-primary);
+}
