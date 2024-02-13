@@ -179,7 +179,7 @@ header {
 
 #hero {
     background-image: url('../img/jumbo.png');
-    min-height: 460px;
+    min-height: 500px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -194,9 +194,27 @@ h1 {
     width: 100%;
     margin: 0 auto;
     background-color: var(--color-header-bg);
+    z-index: 1001px;
 }
 
+.dropdown{
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1001px;
+    display: none;
+}
 
+nav ul li{
+    position: relative;
+}
+
+nav ul li:hover .dropdown{
+    display: block;
+}
 /* main */
 .left {
     width: 60%;
